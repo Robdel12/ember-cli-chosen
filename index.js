@@ -24,7 +24,7 @@ module.exports = {
     app.import(app.bowerDirectory + '/chosen/chosen.jquery.min.js');
 
     // Import Chosen CSS (done by default)
-    if(options.importChosenCSS) { app.import(app.bowerDirectory + '/chosen/chosen.css'); }
+    if(options.importChosenCSS) { app.import(app.bowerDirectory + '/chosen/chosen.min.css'); }
   },
   treeForPublic: function(treeName) {
     var tree;
