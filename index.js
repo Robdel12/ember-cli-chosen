@@ -21,7 +21,7 @@ module.exports = {
     app.options['ember-cli-chosen'] = options;
 
     // Import the correct JS for chosen
-    app.import(app.bowerDirectory + '/chosen/chosen.' + options.chosenJSType + '.js');
+    app.import(app.bowerDirectory + '/chosen.jquery.min.js');
 
     // Import Chosen CSS (done by default)
     if(options.importChosenCSS) { app.import(app.bowerDirectory + '/chosen/chosen.css'); }
